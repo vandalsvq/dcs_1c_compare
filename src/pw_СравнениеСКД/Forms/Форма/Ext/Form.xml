@@ -6095,6 +6095,208 @@
 						</Pages>
 					</ChildItems>
 				</Page>
+				<Page name="СтраницаРезультат" id="2559">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница результат</v8:content>
+						</v8:item>
+					</ToolTip>
+					<TitleDataPath>Объект.Сравнение.RowsCount</TitleDataPath>
+					<ExtendedTooltip name="СтраницаРезультатРасширеннаяПодсказка" id="2560"/>
+					<ChildItems>
+						<Table name="Сравнение" id="2561">
+							<ReadOnly>true</ReadOnly>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Сравнение</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СравнениеКонтекстноеМеню" id="2562"/>
+							<AutoCommandBar name="СравнениеКоманднаяПанель" id="2563"/>
+							<ExtendedTooltip name="СравнениеРасширеннаяПодсказка" id="2564"/>
+							<SearchStringAddition name="СравнениеСтрокаПоиска" id="2565">
+								<AdditionSource>
+									<Item>Сравнение</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СравнениеСтрокаПоискаКонтекстноеМеню" id="2566"/>
+								<ExtendedTooltip name="СравнениеСтрокаПоискаРасширеннаяПодсказка" id="2567"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СравнениеСостояниеПросмотра" id="2568">
+								<AdditionSource>
+									<Item>Сравнение</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СравнениеСостояниеПросмотраКонтекстноеМеню" id="2569"/>
+								<ExtendedTooltip name="СравнениеСостояниеПросмотраРасширеннаяПодсказка" id="2570"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СравнениеУправлениеПоиском" id="2571">
+								<AdditionSource>
+									<Item>Сравнение</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СравнениеУправлениеПоискомКонтекстноеМеню" id="2572"/>
+								<ExtendedTooltip name="СравнениеУправлениеПоискомРасширеннаяПодсказка" id="2573"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СравнениеРаздел" id="2577">
+									<DataPath>Объект.Сравнение.Раздел</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеРазделКонтекстноеМеню" id="2578"/>
+									<ExtendedTooltip name="СравнениеРазделРасширеннаяПодсказка" id="2579"/>
+								</InputField>
+								<InputField name="СравнениеРодитель" id="2580">
+									<DataPath>Объект.Сравнение.Родитель</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеРодительКонтекстноеМеню" id="2581"/>
+									<ExtendedTooltip name="СравнениеРодительРасширеннаяПодсказка" id="2582"/>
+								</InputField>
+								<InputField name="СравнениеКлюч" id="2583">
+									<DataPath>Объект.Сравнение.Ключ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеКлючКонтекстноеМеню" id="2584"/>
+									<ExtendedTooltip name="СравнениеКлючРасширеннаяПодсказка" id="2585"/>
+								</InputField>
+								<InputField name="СравнениеТаблица" id="2586">
+									<DataPath>Объект.Сравнение.Таблица</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеТаблицаКонтекстноеМеню" id="2587"/>
+									<ExtendedTooltip name="СравнениеТаблицаРасширеннаяПодсказка" id="2588"/>
+								</InputField>
+								<InputField name="СравнениеРеквизит" id="2589">
+									<DataPath>Объект.Сравнение.Реквизит</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеРеквизитКонтекстноеМеню" id="2590"/>
+									<ExtendedTooltip name="СравнениеРеквизитРасширеннаяПодсказка" id="2591"/>
+								</InputField>
+								<InputField name="СравнениеСиноним" id="2592">
+									<DataPath>Объект.Сравнение.Синоним</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеСинонимКонтекстноеМеню" id="2593"/>
+									<ExtendedTooltip name="СравнениеСинонимРасширеннаяПодсказка" id="2594"/>
+								</InputField>
+								<CheckBoxField name="СравнениеМногострочныйРежим" id="2595">
+									<DataPath>Объект.Сравнение.МногострочныйРежим</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеМногострочныйРежимКонтекстноеМеню" id="2596"/>
+									<ExtendedTooltip name="СравнениеМногострочныйРежимРасширеннаяПодсказка" id="2597"/>
+								</CheckBoxField>
+								<CheckBoxField name="СравнениеЭтоТабЧасть" id="2598">
+									<DataPath>Объект.Сравнение.ЭтоТабЧасть</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеЭтоТабЧастьКонтекстноеМеню" id="2599"/>
+									<ExtendedTooltip name="СравнениеЭтоТабЧастьРасширеннаяПодсказка" id="2600"/>
+								</CheckBoxField>
+								<CheckBoxField name="СравнениеЭтоРеквизит" id="2601">
+									<DataPath>Объект.Сравнение.ЭтоРеквизит</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеЭтоРеквизитКонтекстноеМеню" id="2602"/>
+									<ExtendedTooltip name="СравнениеЭтоРеквизитРасширеннаяПодсказка" id="2603"/>
+								</CheckBoxField>
+								<InputField name="СравнениеСтрока1" id="2604">
+									<DataPath>Объект.Сравнение.Строка1</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеСтрока1КонтекстноеМеню" id="2605"/>
+									<ExtendedTooltip name="СравнениеСтрока1РасширеннаяПодсказка" id="2606"/>
+								</InputField>
+								<InputField name="СравнениеСтрока2" id="2607">
+									<DataPath>Объект.Сравнение.Строка2</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеСтрока2КонтекстноеМеню" id="2608"/>
+									<ExtendedTooltip name="СравнениеСтрока2РасширеннаяПодсказка" id="2609"/>
+								</InputField>
+								<InputField name="СравнениеЗначение1" id="2613">
+									<DataPath>Объект.Сравнение.Значение1</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеЗначение1КонтекстноеМеню" id="2614"/>
+									<ExtendedTooltip name="СравнениеЗначение1РасширеннаяПодсказка" id="2615"/>
+								</InputField>
+								<InputField name="СравнениеЗначение2" id="2616">
+									<DataPath>Объект.Сравнение.Значение2</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеЗначение2КонтекстноеМеню" id="2617"/>
+									<ExtendedTooltip name="СравнениеЗначение2РасширеннаяПодсказка" id="2618"/>
+								</InputField>
+								<InputField name="СравнениеПолноеИмя" id="2610">
+									<DataPath>Объект.Сравнение.ПолноеИмя</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеПолноеИмяКонтекстноеМеню" id="2611"/>
+									<ExtendedTooltip name="СравнениеПолноеИмяРасширеннаяПодсказка" id="2612"/>
+								</InputField>
+								<InputField name="СравнениеВидИзменений" id="2619">
+									<DataPath>Объект.Сравнение.ВидИзменений</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СравнениеВидИзмененийКонтекстноеМеню" id="2620"/>
+									<ExtendedTooltip name="СравнениеВидИзмененийРасширеннаяПодсказка" id="2621"/>
+								</InputField>
+								<CheckBoxField name="СравнениеЕстьОтличия" id="2622">
+									<DataPath>Объект.Сравнение.ЕстьОтличия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеЕстьОтличияКонтекстноеМеню" id="2623"/>
+									<ExtendedTooltip name="СравнениеЕстьОтличияРасширеннаяПодсказка" id="2624"/>
+								</CheckBoxField>
+								<CheckBoxField name="СравнениеЕстьНовые" id="2625">
+									<DataPath>Объект.Сравнение.ЕстьНовые</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеЕстьНовыеКонтекстноеМеню" id="2626"/>
+									<ExtendedTooltip name="СравнениеЕстьНовыеРасширеннаяПодсказка" id="2627"/>
+								</CheckBoxField>
+								<CheckBoxField name="СравнениеЕстьУдаленные" id="2628">
+									<DataPath>Объект.Сравнение.ЕстьУдаленные</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеЕстьУдаленныеКонтекстноеМеню" id="2629"/>
+									<ExtendedTooltip name="СравнениеЕстьУдаленныеРасширеннаяПодсказка" id="2630"/>
+								</CheckBoxField>
+								<CheckBoxField name="СравнениеЕстьИзменения" id="2631">
+									<DataPath>Объект.Сравнение.ЕстьИзменения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеЕстьИзмененияКонтекстноеМеню" id="2632"/>
+									<ExtendedTooltip name="СравнениеЕстьИзмененияРасширеннаяПодсказка" id="2633"/>
+								</CheckBoxField>
+								<CheckBoxField name="СравнениеЭтоКлюч" id="2634">
+									<DataPath>Объект.Сравнение.ЭтоКлюч</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СравнениеЭтоКлючКонтекстноеМеню" id="2635"/>
+									<ExtendedTooltip name="СравнениеЭтоКлючРасширеннаяПодсказка" id="2636"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="СтраницаТаблица" id="2499">
 					<Title>
 						<v8:item>
@@ -7153,6 +7355,18 @@
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="Объект" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.СравнениеСхемыКомпоновки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
 		</Attribute>
 	</Attributes>
 	<Commands>
