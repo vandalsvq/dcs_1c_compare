@@ -5827,20 +5827,20 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4e2d7b9f-bdff-4fdc-918f-204fc7c20ca2">
+					<Attribute uuid="508def63-9333-42a8-8b24-44331a3c4bd0">
 						<Properties>
-							<Name>Тип</Name>
+							<Name>Ключ</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Тип</v8:content>
+									<v8:content>Ключ</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>150</v8:Length>
+									<v8:Length>36</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -5867,20 +5867,20 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="508def63-9333-42a8-8b24-44331a3c4bd0">
+					<Attribute uuid="4e2d7b9f-bdff-4fdc-918f-204fc7c20ca2">
 						<Properties>
-							<Name>Ключ</Name>
+							<Name>Тип</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Ключ</v8:content>
+									<v8:content>Тип</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>36</v8:Length>
+									<v8:Length>150</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
